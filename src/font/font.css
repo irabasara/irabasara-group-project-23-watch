@@ -14,9 +14,9 @@
 
 @font-face {
   font-family: 'Epilogue-Thin';
-  src: url('fonts/Epilogue-Thin.woff2') format('woff2'),
-    url('fonts/Epilogue-Thin.woff') format('woff'),
-    url('fonts/Epilogue-Thin.ttf') format('truetype');
+  src: url('../font/Epilogue-Thin.woff2') format('woff2'),
+    url('../font/Epilogue-Thin.woff') format('woff'),
+    url('../font/Epilogue-Thin.ttf') format('truetype');
   font-weight: 100;
   font-display: swap;
   font-style: normal;
@@ -24,9 +24,9 @@
 
 @font-face {
   font-family: 'Epilogue-Regular';
-  src: url('fonts/Epilogue-Regular.woff2') format('woff2'),
-    url('fonts/Epilogue-Regular.woff') format('woff'),
-    url('fonts/Epilogue-Regular.ttf') format('truetype');
+  src: url('../font/Epilogue-Regular.woff2') format('woff2'),
+    url('../font/Epilogue-Regular.woff') format('woff'),
+    url('../font/Epilogue-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -34,20 +34,20 @@
 
 @font-face {
   font-family: 'Epilogue-SemiBold';
-  src: url('fonts/Epilogue-SemiBold.woff2') format('woff2'),
-    url('fonts/Epilogue-SemiBold.woff') format('woff'),
-    url('fonts/Epilogue-SemiBold.ttf') format('truetype');
+  src: url('../font/Epilogue-SemiBold.woff2') format('woff2'),
+    url('../font/Epilogue-SemiBold.woff') format('woff'),
+    url('../font/Epilogue-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Neue Montreal';
-  src: local('Neue Montreal Regular'), local('Neue-Montreal-Regular'),
-    url('NeueMontreal-Regular.woff2') format('woff2'),
-    url('NeueMontreal-Regular.woff') format('woff'),
-    url('NeueMontreal-Regular.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Epilogue-Light';
+  src: url('../font/Epilogue-Light.woff2') format('woff2'),
+    url('../font/Epilogue-Light.woff') format('woff'),
+    url('../font/Epilogue-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
   font-style: normal;
 }
