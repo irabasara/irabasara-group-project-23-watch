@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -20,7 +16,6 @@ ul {
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
@@ -32,4 +27,17 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: 'Epilogue-Regular', sans-serif;
+  color: var();
+}
+:root {
+  --Epilogue-Thin: 'Epilogue-Thin', sans-serif;
+  --Epilogue-SemiBold: 'Epilogue-SemiBold', sans-serif;
+  --Neue-Montreal: 'Neue Montreal', sans-serif;
+  --white-color: #ffffff;
+  --black-color: #141414;
+  --dark-green-color: #1e2827;
 }
