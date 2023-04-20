@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -20,7 +16,6 @@ ul {
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
@@ -32,4 +27,30 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: 'Epilogue-Regular', sans-serif;
+  color: var();
+}
+:root {
+  --Epilogue-Thin: 'Epilogue-Thin', sans-serif;
+  --Epilogue-SemiBold: 'Epilogue-SemiBold', sans-serif;
+  --Neue-Montreal: 'Neue Montreal', sans-serif;
+  --white-color: #ffffff;
+  --black-color: #141414;
+  --dark-green-color: #1e2827;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
