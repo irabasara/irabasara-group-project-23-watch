@@ -5,20 +5,22 @@
 .about-title {
   margin-bottom: 40px;
 
+  /* font-family: 'Epilogue', sans-serif; */
+  font-family: var(----Epilogue-Thin);
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
 
   color: var(--dark-green-color);
 }
-.about-description {
-}
+
 .about-description-paragraph:not(:last-child) {
   margin-bottom: 20px;
 }
 .about-description-paragraph p {
-  font-family: 'Epilogue', sans-serif;
+  /* font-family: 'Epilogue', sans-serif; */
 
+  font-family: var(--Epilogue-Regular);
   font-weight: 300;
   font-size: 14px;
   line-height: 1.29;
@@ -30,8 +32,8 @@
 .gif-thumb {
   margin-top: 40px;
 
-  outline: 1px solid tomato;
   height: 365px;
+
   background-image: url('../img/about/watchspot.gif');
   background-position: center;
   background-repeat: no-repeat;
@@ -52,8 +54,6 @@
     column-gap: 40px;
   }
   .about-title {
-    font-family: 'Epilogue', sans-serif;
-    /* font-family: var(--Epilogue-SemiBold); */
     margin: 0;
 
     font-weight: 600;
@@ -80,7 +80,8 @@
 }
 @media screen and (min-width: 1280px) {
   .about .container {
-    width: 1440px;
+    width: 1176px;
+    max-width: 1440px;
     padding: 80px 132px;
     column-gap: 110px;
   }
