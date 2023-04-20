@@ -5,7 +5,6 @@
 .about-title {
   margin-bottom: 40px;
 
-  /* font-family: 'Epilogue', sans-serif; */
   font-family: var(--Epilogue-SemiBold);
   font-size: 32px;
   line-height: 1.25;
@@ -18,8 +17,6 @@
   margin-bottom: 20px;
 }
 .about-description-paragraph p {
-  /* font-family: 'Epilogue', sans-serif; */
-
   font-family: var(--Epilogue-Regular);
   font-weight: 300;
   font-size: 14px;
@@ -96,7 +93,6 @@
   }
   .about-title {
     margin-right: 110px;
-    width: 174px;
   }
   .about-description {
     margin-right: 33px;
