@@ -1,4 +1,4 @@
-.about .container {
+.about-container {
   padding: 40px 20px 80px;
   margin: 0 auto;
 }
@@ -6,7 +6,7 @@
   margin-bottom: 40px;
 
   /* font-family: 'Epilogue', sans-serif; */
-  font-family: var(----Epilogue-Thin);
+  font-family: var(--Epilogue-SemiBold);
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
@@ -34,27 +34,31 @@
 
   height: 365px;
 
-  background-image: url('../img/about/watchspot.gif');
+  background-image: url('../img/about/watchspot-min1.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media screen and (min-width: 375px) {
-  .about .container {
+  .about-container {
     width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
-  .about .container {
+  .about-container {
     width: 768px;
     padding: 64px 32px 128px;
-
     display: flex;
     flex-wrap: wrap;
+    justify-self: right;
     column-gap: 40px;
   }
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .about-title {
-    margin: 0;
+    margin: 0 40px 0 0;
 
     font-weight: 600;
     font-size: 40px;
@@ -75,24 +79,35 @@
   .gif-thumb {
     height: 465px;
     width: 704px;
-    background-image: url('../img/about/watchspot.gif');
   }
 }
 @media screen and (min-width: 1280px) {
-  .about .container {
-    width: 1176px;
+  .about-container {
+    width: 100%;
     max-width: 1440px;
     padding: 80px 132px;
-    column-gap: 110px;
+
+    justify-content: right;
+  }
+  .about-wrapper {
+    /* justify-content: right; */
+    flex-wrap: nowrap;
+    /* column-gap: 110px; */
+  }
+  .about-title {
+    margin-right: 110px;
+    width: 174px;
   }
   .about-description {
+    margin-right: 33px;
+    max-width: 859px;
     column-gap: 40px;
   }
   .about-description-paragraph:not(:last-child) {
-    width: 439px;
+    width: 100%;
   }
   .about-description-paragraph:last-child {
-    width: 380px;
+    width: 100%;
   }
   .gif-thumb {
     margin-left: auto;
