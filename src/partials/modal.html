@@ -28,7 +28,7 @@
           <input
             class="modal-input"
             type="text"
-            name="user_name" pattern="^[a-zA-Zа-яА-Я]+$"
+            name="user_name" required pattern="^[a-zA-Zа-яА-Я]+$"
             placeholder="Enter your full name"
           />
         </label>
@@ -37,7 +37,7 @@
           <input
             class="modal-input"
             type="email"
-            name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            name="user_email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             placeholder="Enter your email"
           />
         </label>
@@ -45,8 +45,8 @@
           <span class="modal-form-name">Card number</span>
           <input
             class="modal-input"
-            type="number"
-            name="card_number" 
+            type="tel"
+            name="card_number" required pattern="[0-9]+$"
             placeholder="Enter card"
           />
         </label>
