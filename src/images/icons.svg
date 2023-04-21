@@ -7,5 +7,23 @@
     <symbol id="icon-x" viewBox="0 0 32 32">
       <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.733" d="M24 8 8 24M8 8l16 16" />
     </symbol>
+
+<symbol id="icon-Vector-1" viewBox="0 0 36 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M16.992 5.147l-16.296 23.555 16.296 0.175 11.78-23.729c0.827-2.428 3.415-1.011 4.605 0-5.088-9.322-13.043-3.884-16.385 0z"></path>
+</symbol>
+
+<symbol id="icon-Vector-2" viewBox="0 0 32 32">
+<path d="M18.486 15.753l-1.928-4.416-0.42-0.291-0.493-0.157-0.667-0.179-0.783 0.336-0.522 0.291 1.971 4.416h2.841z"></path>
+</symbol>
+
+<symbol id="icon-Vector-3" viewBox="0 0 32 32">
+<path d="M13.526 11.011l1.928 4.427 0.42 0.292 0.493 0.157 0.667 0.18 0.783-0.337 0.522-0.292-1.971-4.427h-2.841z"></path>
+</symbol>
+
+<symbol id="icon-Vector-4" viewBox="0 0 36 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M18.563 26.853l16.296-23.555-16.296-0.175-11.78 23.729c-0.827 2.428-3.415 1.012-4.605 0 5.088 9.322 13.043 3.884 16.385 0z"></path>
+</symbol>
+
+
   </defs>
 </svg>
