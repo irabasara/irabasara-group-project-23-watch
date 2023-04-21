@@ -43,14 +43,17 @@
     padding: 64px 32px 128px;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
   }
   .about-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
   }
   .about-title {
+    position: absolute;
     margin: 0 40px 0 0;
 
-    font-weight: 600;
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -0.02em;
@@ -76,9 +79,16 @@
     width: 100%;
     max-width: 1440px;
     padding: 80px 132px;
+    position: static;
+    flex-wrap: nowrap;
   }
   .about-title {
+    position: static;
+    white-space: nowrap;
     margin-right: 110px;
+  }
+  .about-wrapper {
+    max-width: 892px;
   }
   .about-description {
     margin-right: 33px;
@@ -94,6 +104,6 @@
   .gif-thumb {
     margin-left: auto;
     height: 500px;
-    width: 892px;
+    width: 100%;
   }
 }
