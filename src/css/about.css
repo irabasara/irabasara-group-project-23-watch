@@ -18,12 +18,9 @@
 }
 .about-description-paragraph p {
   font-family: var(--Epilogue-Light);
-  font-weight: 300;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-
-  color: var(--black-color);
 }
 
 .gif-thumb {
@@ -33,7 +30,6 @@
 
   background-image: url('../img/about/watchspot.gif');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 @media screen and (min-width: 375px) {
@@ -47,12 +43,9 @@
     padding: 64px 32px 128px;
     display: flex;
     flex-wrap: wrap;
-    justify-self: right;
-    column-gap: 40px;
   }
   .about-wrapper {
     display: flex;
-    flex-wrap: wrap;
   }
   .about-title {
     margin: 0 40px 0 0;
@@ -83,13 +76,6 @@
     width: 100%;
     max-width: 1440px;
     padding: 80px 132px;
-
-    justify-content: right;
-  }
-  .about-wrapper {
-    /* justify-content: right; */
-    flex-wrap: nowrap;
-    /* column-gap: 110px; */
   }
   .about-title {
     margin-right: 110px;
@@ -107,7 +93,7 @@
   }
   .gif-thumb {
     margin-left: auto;
-    height: 630px;
+    height: 500px;
     width: 892px;
   }
 }
