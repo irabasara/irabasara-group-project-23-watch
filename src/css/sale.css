@@ -1,11 +1,33 @@
-.section-sale {
+/* ==================================SALE==================================*/
+
+.container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+}
+
+
+
 
 
 .title-sale {
@@ -28,6 +50,11 @@
 .gallery-sale-item {
     margin-bottom: 10px;
 }
+/* 
+.img1-sale {
+    background-image: #141414;
+    width: 100%;
+} */
 
 .gallery-sale-item:last-child {
     margin-bottom: 0;
@@ -59,6 +86,9 @@
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: #141414;
+
+    display: flex;
+    align-items: center;
 }
 
 .regular-price-sale {
@@ -68,10 +98,12 @@
     letter-spacing: -0.02em;
     text-decoration-line: line-through;
     color: rgba(20, 20, 20, 0.5);
+
+    margin-left: 8px;
 }
 
 .description-sale-div {
-    position: relative;
+
 }
     
 
@@ -97,6 +129,7 @@
 
     margin-bottom: 17px;
 
+    position: relative;
 }
 
 .description-sub-sale::after{
@@ -107,8 +140,8 @@
     border-radius: 2px;
     display: inline-block;
     position: absolute;
-    top: 30px;
-    left: 310px;
+    top: 13px;
+    right: 0;
     
 }
 
@@ -146,6 +179,8 @@
     color: #141414;
 
     margin-bottom: 17px;
+
+    position: relative;
 }
 
 .details-sub-sale::after {
@@ -156,10 +191,8 @@
     border-radius: 2px;
     display: inline-block;
     position: absolute;
-    top: 30px;
-    left: 300px;
-
-
+    top: 13px;
+    right: 0;
 }
 
 .details-item {
@@ -170,3 +203,37 @@
     color: rgba(20, 20, 20, 0.5);
 }
 
+@media screen and (min-width: 768px) {
+
+    .title-sale {
+        font-size: 40px;
+        line-height: 1.1;
+        color: #1E2827;
+    }
+
+    .content-sale-div {
+        padding-left: 66px;
+        padding-right: 66px;
+    }
+
+    .subtitle-sale {
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 1.05;
+        color: #141414;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+
+    .content-sale-div {
+        display: flex;
+        gap: 40px;
+    }
+
+
+
+
+
+}
