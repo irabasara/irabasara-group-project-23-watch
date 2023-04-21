@@ -41,7 +41,7 @@ color: rgba(20, 20, 20, 0.5)
    margin-top: 40px; 
 }
 @media screen and (min-width: 375px) {
-    .container{
+    .container-catalog{
         width: 375px;
     }
 }
@@ -68,7 +68,7 @@ color: rgba(20, 20, 20, 0.5)
 /* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
     .container-catalog{
-        max-width: 1440px;
+        width: 1440px;
         padding: 80px 132px;
     }
     .specially_catalog{
