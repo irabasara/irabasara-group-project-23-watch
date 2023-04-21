@@ -1,0 +1,109 @@
+.about-container {
+  padding: 40px 20px 80px;
+  margin: 0 auto;
+}
+.about-title {
+  margin-bottom: 40px;
+
+  font-family: var(--Epilogue-SemiBold);
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+
+  color: var(--dark-green-color);
+}
+
+.about-description-paragraph:not(:last-child) {
+  margin-bottom: 20px;
+}
+.about-description-paragraph p {
+  font-family: var(--Epilogue-Light);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+.gif-thumb {
+  margin-top: 40px;
+
+  height: 365px;
+
+  background-image: url('../img/about/watchspot.gif');
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 375px) {
+  .about-container {
+    width: 375px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-container {
+    width: 768px;
+    padding: 64px 32px 128px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+  }
+  .about-title {
+    position: absolute;
+    margin: 0 40px 0 0;
+
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+  .about-description {
+    display: flex;
+    column-gap: 20px;
+  }
+  .about-description-paragraph:not(:last-child) {
+    margin: 0;
+    width: 220px;
+  }
+  .about-description-paragraph:last-child {
+    width: 250px;
+  }
+  .gif-thumb {
+    height: 465px;
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 80px 132px;
+    position: static;
+    flex-wrap: nowrap;
+  }
+  .about-title {
+    position: static;
+    white-space: nowrap;
+    margin-right: 110px;
+  }
+  .about-wrapper {
+    max-width: 892px;
+  }
+  .about-description {
+    margin-right: 33px;
+    max-width: 859px;
+    column-gap: 40px;
+  }
+  .about-description-paragraph:not(:last-child) {
+    width: 100%;
+  }
+  .about-description-paragraph:last-child {
+    width: 100%;
+  }
+  .gif-thumb {
+    margin-left: auto;
+    height: 500px;
+    width: 100%;
+  }
+}
