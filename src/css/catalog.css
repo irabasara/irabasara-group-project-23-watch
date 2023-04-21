@@ -1,12 +1,12 @@
 /* ------------------MOBILE------------------------- */
 .container-catalog{
-    border-color: 1px solid red;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
  }
  .title_catalog{
+    font-family: var(--Epilogue-SemiBold);
     font-size: 32px;
     line-height: 1.25;
     color: var(--dark-green-color);
