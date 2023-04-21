@@ -37,8 +37,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 36px;
-    height: 36px;
     stroke: var(--black-color);
     border: none;
     background-color: transparent;
@@ -219,3 +217,4 @@
     }
 
 }
+
