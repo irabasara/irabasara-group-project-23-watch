@@ -1,4 +1,12 @@
 /* ------MOBILE------ */
+.header-logo-link::before {
+    content: ' ';
+    background-image: url(../public/logo.svg);
+    width: 14px;
+    height: 14px;
+}
+
+
 .header-logo-icon {
     display: flex;
     justify-content: center;
@@ -81,7 +89,7 @@ color: var(--white-color);
 
 @media screen and (min-width: 768px) {
     .header-container {
-        max-width: 768px;
+        max-width: 728px;
         
     }
     .burger-menu {
@@ -98,6 +106,11 @@ color: var(--white-color);
     }
 
     .header-logo-icon {
+        width: 19px;
+        height: 19px;
+    }
+
+    .header-logo-link::before {
         width: 19px;
         height: 19px;
     }
@@ -138,9 +151,9 @@ nav {
 
 /* ------DESKTOP------ */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
     .header-container {
-       max-width: 1440px;
+       max-width: 1240px;
         
     }
 }
