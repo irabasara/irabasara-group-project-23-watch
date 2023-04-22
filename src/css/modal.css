@@ -16,7 +16,7 @@
 }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.5);
+    transform: translateX(-50%) scale(0.5);
 }
 
 .modal {
@@ -47,7 +47,7 @@
 }
 
 .modal-close-btn:hover, .modal-close-btn:focus {
-    transform: scale(0.8);
+    transform: scale(0.7);
 }
 
 .modal-watch-photo {
@@ -197,7 +197,7 @@
 
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
     .modal {
         width: 904px;
         min-height: 694px;
