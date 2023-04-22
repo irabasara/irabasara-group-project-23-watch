@@ -29,6 +29,7 @@
 .specially_catalog {
   display: none;
 }
+
 .watch_catalog_li {
   padding: 30px 43px;
   width: 100%;
@@ -40,12 +41,12 @@
   margin-top: 14px;
   color: var(--black-color);
   margin-bottom: 4px;
+  letter-spacing: -0.02em;
 }
 
 .price_catalog {
   font-size: 12px;
   line-height: 1.17;
-  margin-bottom: 4px;
   color: rgba(20, 20, 20, 0.5);
 }
 
@@ -91,7 +92,6 @@
 
 .card-title,
 .card-title2 {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
@@ -102,7 +102,6 @@
 
 .card-desc,
 .card-desc2 {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.01em;
@@ -122,14 +121,11 @@
   height: 42px;
   background: var(--dark-green-color);
   border-radius: 8px;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
   text-transform: uppercase;
   color: var(--white-color);
   border: transparent;
   transition: border 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-  padding: 14px 28px;
 }
 
 .watch_btn_catalog:hover,
@@ -142,6 +138,7 @@
     width: 375px;
   }
 }
+
 /* ################################################## */
 /* --------------------TABLE-------------------------- */
 @media screen and (min-width: 768px) {
@@ -164,9 +161,9 @@
   .watch_btn_catalog {
     width: 122px;
     height: 50px;
-    padding: 18px 35px;
   }
 }
+
 /* ##################################################### */
 /* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
@@ -179,10 +176,11 @@
   }
   .watches_catalog_ul {
     margin-top: 64px;
-    gap: 64px 24px;
+    gap: 90px 24px;
   }
   .wrist_watch {
     width: calc((100% - 72px) / 4);
+    height: 380px;
   }
   .watch_catalog_li {
     padding: 26px 0 25px 0;
@@ -191,4 +189,5 @@
   .watch_btn_catalog {
     margin-top: 80px;
   }
+
 }
