@@ -1,0 +1,153 @@
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Верстка виконана щодо трьох точок перелому: 428px, 768px і 1158px. */
+/* Верстка виконана щодо трьох точок перелому: 375px, 768px і 1280px. */
+
+
+/* - - - - - - - - - HERO - - - - - - - - - */
+.hero {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 122px;
+	padding-bottom: 40px;
+	background-color: #141414;
+}
+
+.hero-container {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hero-title {
+	max-width: 335px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+
+
+
+	color: #FFFFFF;
+
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 1.05;
+	letter-spacing: -0.04em;
+}
+
+.hero-slider {
+	max-width: 266px;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
+
+.slider-picture {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slider-pagination {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.slider-btn-list {
+	display: flex;
+}
+
+.slider-btn-item:not(:last-child) {
+	margin-right: 12px;
+}
+
+.slider-btn {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	height: 32px;
+}
+
+
+
+/* .slider-link-pagination::after {
+	position: absolute;
+	content: '';
+	display: inline-block;
+	width: 32px;
+	height: 2px;
+
+	background-color: #FFFFFF;
+} */
+
+.slider-numbers-list {
+	display: flex;
+}
+
+.slider-number-item {
+	position: relative;
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.29;
+	letter-spacing: -0.02em;
+
+	color: #FFFFFF;
+}
+
+.slider-number-item:not(:last-child) {
+	margin-right: 44px;
+}
+
+.after.slider-number-item::after {
+	content: '';
+
+	position: absolute;
+	top: 50%;
+	left: 150%;
+
+	transform: translateY(-50%);
+
+	width: 32px;
+	height: 2px;
+	background-color: #FFFFFF;
+}
+
+/* .hero-text-wrap {
+	max-width: 248px;
+	height: 108px;
+	margin-bottom: 40px;
+	margin-left: auto;
+
+} */
+
+.hero-text {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.29;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+
+	display: block;
+	max-width: 248px;
+	height: 108px;
+	margin-bottom: 40px;
+	margin-left: auto;
+}
+
+@media screen and (min-width: 375px) {
+
+	.hero-container {
+		width: 375px;
+	}
+}
