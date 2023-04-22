@@ -218,9 +218,29 @@
         line-height: 1.05;
     }
 
+
 }
 
 @media screen and (min-width: 1280px) {
+    .sale-gallery {
+        margin-bottom: 0;
+    }
+
+    /* .sale-content-div {
+        display: flex;
+        gap: 40px;
+    
+        padding-left: 97px;
+        padding-right: 98px;
+    } */
+
+    .sale-description-div {
+        width: 100%;
+    }
+
+}
+/* 
+@media screen and (min-width: 1440px) {
 
     .sale-content-div {
         display: flex;
@@ -230,11 +250,4 @@
         padding-right: 98px;
     }
 
-    .sale-gallery {
-        height: 614px;
-    }
-
-    .sale-description-div {
-        width: 369px;
-    }
-}
+} */
