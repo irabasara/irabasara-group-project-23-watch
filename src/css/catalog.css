@@ -168,8 +168,9 @@
 /* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
   .container-catalog {
-    width: 1440px;
-    padding: 80px 132px;
+		width: 1280px;
+		padding-left: 52px;
+		padding-right: 52px;
   }
   .specially_catalog {
     display: block;
