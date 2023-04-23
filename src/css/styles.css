@@ -18,21 +18,14 @@
 @import url('./catalog.css');
 /* new watch */
 
-/* sale */
+@import url('./sale.css');
 /* footer */
 
 @import url('./footer.css');
 
-
-
-
-
-
 @import url('./modal.css');
-
 
 /* mobile menu */
 @import url('./mob-menu.css');
 /* modal window */
 /* swiper */
-
