@@ -248,4 +248,19 @@
     .footer-copy-text span{
         margin-left: 18px;
     }
+    
+    .footer-category-link:hover,
+    .footer-tel:hover,
+    .footer-address-link:hover,
+    .footer-social-link svg:hover,
+    .footer-tel:focus,
+    .footer-address-link:focus,
+    .footer-social-link svg:focus,
+    .footer-category-link:focus {
+        opacity: 0.5;
+    }
+
+    
+
+
 }
