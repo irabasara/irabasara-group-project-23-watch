@@ -7,30 +7,13 @@
 
 @import url('./reset.css');
 @import url('../font/font.css');
-
 @import url('./header.css');
-/* hero */
-
-/* header */
 @import url('./hero.css');
-
-/* about us */
 @import url('./about.css');
-/* catalog */
-
-@import url('./new-watches.css');
-
 @import url('./catalog.css');
-/* new watch */
-
+@import url('./new-watches.css');
 @import url('./sale.css');
-/* footer */
-
 @import url('./footer.css');
-
 @import url('./modal.css');
-
-/* mobile menu */
 @import url('./mob-menu.css');
-/* modal window */
 /* swiper */
