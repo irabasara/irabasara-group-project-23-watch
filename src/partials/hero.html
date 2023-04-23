@@ -2,23 +2,25 @@
 	<div class="hero-container">
 		<h1 class="hero-title">Welcome to our collection of premium watches</h1>
 		<div class="hero-slider">
-
-			<img class="slider-picture" srcset="/img/hero/slider_mob_1x.jpg 1x, /img/hero/slider_mob_2x.jpg 2x"
-				src="/img/hero/slider_mob_1x.jpg" alt="Silver green watch" width="266" height="200">
-
+			<picture class="slider-picture">
+				<source srcset="./img/hero/slider_desk_1x.jpg 1x, ./img/hero/slider_desk_2x.jpg 2x" media="(min-width: 1280px)">
+				<source srcset="./img/hero/slider_tab_1x.jpg 1x, ./img/hero/slider_tab_2x.jpg 2x" media="(min-width: 768px)">
+				<source srcset="./img/hero/slider_mob_1x.jpg 1x, ./img/hero/slider_mob_2x.jpg 2x" media="(max-width: 767px)">
+				<img src="./img/hero/hero_tab_1x.jpg" alt="Silver green watch" width="436">
+			</picture>
 			<div class="slider-pagination">
 				<ul class="slider-btn-list">
 					<li class="slider-btn-item">
 						<button class="slider-btn" type="button">
 							<svg class="slider-icon" width="32" height="32">
-								<use href="../img/sprite.svg#left-btn"></use>
+								<use href="./img/sprite.svg#left-btn"></use>
 							</svg>
 						</button>
 					</li>
 					<li class="slider-btn-item">
 						<button class="slider-btn" type="button">
 							<svg class="slider-icon" width="32" height="32">
-								<use href="../img/sprite.svg#right-btn"></use>
+								<use href="./img/sprite.svg#right-btn"></use>
 							</svg>
 						</button>
 					</li>
@@ -30,13 +32,17 @@
 			</div>
 		</div>
 
-		<div class="hero-text-wrap">
-			<p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
-				lifestyle.
-				From classic designs to
-				modern ones, we have a watch to suit every taste and occasion.</p>
-		</div>
+		<p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and
+			lifestyle.
+			From classic designs to
+			modern ones, we have a watch to suit every taste and occasion.</p>
 
-		<img class="hero-image" src="./img/hero/hero_mob_1x.jpg" alt="Watch on hand" width="335" height="410">
+			<picture class="hero-picture">
+				<source srcset="./img/hero/hero_desk_1x.jpg 1x, ./img/hero/hero_desk_2x.jpg 2x" media="(min-width: 1280px)">
+				<source srcset="./img/hero/hero_tab_1x.jpg 1x, ./img/hero/hero_tab_2x.jpg 2x" media="(min-width: 768px)">
+				<source srcset="./img/hero/hero_mob_1x.jpg 1x, ./img/hero/hero_mob_2x.jpg 2x" media="(max-width: 767px)">
+				<img src="./img/hero/hero_tab_1x.jpg" alt="Watch on hand" width="704" height="410">
+			</picture>
+
 	</div>
 </section>
