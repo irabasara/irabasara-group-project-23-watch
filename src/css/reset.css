@@ -34,6 +34,7 @@ body {
 }
 :root {
   --Epilogue-Thin: 'Epilogue-Thin', sans-serif;
+  --Epilogue-Light: 'Epilogue-Light', sans-serif;
   --Epilogue-SemiBold: 'Epilogue-SemiBold', sans-serif;
   --Neue-Montreal: 'Neue Montreal', sans-serif;
   --white-color: #ffffff;
