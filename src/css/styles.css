@@ -21,11 +21,15 @@
 /* sale */
 /* footer */
 
+@import url('./footer.css');
+
+
 
 
 
 
 @import url('./modal.css');
+
 
 /* mobile menu */
 @import url('./mob-menu.css');
