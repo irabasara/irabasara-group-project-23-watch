@@ -8,16 +8,31 @@
 @import url('./reset.css');
 @import url('../font/font.css');
 /* header */
-/* hero */
+@import url('./hero.css');
 /* about us */
 @import url('./about.css');
 /* catalog */
+
+@import url('./new-watches.css');
+
 @import url('./catalog.css');
 /* new watch */
+
 /* sale */
 /* footer */
+
 @import url('./footer.css');
+
+
+
+
+
+
+@import url('./modal.css');
+
+
 /* mobile menu */
 @import url('./mob-menu.css');
 /* modal window */
 /* swiper */
+
