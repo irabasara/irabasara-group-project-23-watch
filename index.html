@@ -10,8 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/irabasara-group-project-23-watch/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/irabasara-group-project-23-watch/assets/index-b7d2a385.css">
+    <script type="module" crossorigin src="/irabasara-group-project-23-watch/assets/index-f0a4a50b.js"></script>
+    <link rel="stylesheet" href="/irabasara-group-project-23-watch/assets/index-244a42a8.css">
   </head>
   <body>
     <!-- header -->
@@ -31,14 +31,14 @@
 					<li class="slider-btn-item">
 						<button class="slider-btn" type="button">
 							<svg class="slider-icon" width="32" height="32">
-								<use href="/irabasara-group-project-23-watch/assets/sprite-32a1d8b7.svg#left-btn"></use>
+								<use href="/irabasara-group-project-23-watch/assets/sprite-01b1863e.svg#left-btn"></use>
 							</svg>
 						</button>
 					</li>
 					<li class="slider-btn-item">
 						<button class="slider-btn" type="button">
 							<svg class="slider-icon" width="32" height="32">
-								<use href="/irabasara-group-project-23-watch/assets/sprite-32a1d8b7.svg#right-btn"></use>
+								<use href="/irabasara-group-project-23-watch/assets/sprite-01b1863e.svg#right-btn"></use>
 							</svg>
 						</button>
 					</li>
@@ -563,6 +563,78 @@
     </main>
 
     <!-- footer -->
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-btn-icon" width="24" height="24">
+        <use href="/irabasara-group-project-23-watch/assets/sprite-01b1863e.svg#clouse-btn"></use>
+      </svg>
+    </button>
+    <div class="modal-form-fill">
+      <div class="modal-buy-watch">
+        <img class="modal-watch-photo"
+          srcset="
+            ../img/modal-form/buy-watch1x.jpg 1x,
+            ../img/modal-form/buy-watch2x.jpg 2x
+          "
+          src="../img/modal-form/buy-watch1x.jpg"
+          alt="buy-watch"
+          width="276"
+          height="325"
+        />
+        <p class="modal-watch-name">
+          Tube Watch S42 Date Steel With Black 
+        </p>
+        <p class="modal-watch-price">€395</p>
+      </div>
+      <form class="modal-form">
+        <label class="modal-form-field">
+          <span class="modal-form-name">Full name</span>
+          <input
+            class="modal-input"
+            type="text"
+            name="user_name" required pattern="^[a-zA-Zа-яА-Я]+$"
+            placeholder="Enter your full name"
+          />
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-name">Email</span>
+          <input
+            class="modal-input"
+            type="email"
+            name="user_email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            placeholder="Enter your email"
+          />
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-name">Card number</span>
+          <input
+            class="modal-input"
+            type="tel"
+            name="card_number" required pattern="[0-9]+$"
+            placeholder="Enter card"
+          />
+        </label>
+        <label class="modal-form-field">
+          <span class="modal-form-name">Comments</span>
+          <textarea
+            name="user_message"
+            class="modal-form-message"
+            placeholder="Enter your text"
+          ></textarea>
+        </label>
+        <button type="submit" class="modal-btn-buy">submit</button>
+        <p class="modal-confirm-policy">By clicking on “Submit” button, you agree to our Privacy Policy, and allow Promodo to use this information for marketing purposes.</p>
+    </form>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
     <div class="mob-menu is-hidden" data-menu>
     <div class="mob-menu-logo-title">
         <img srcset="/irabasara-group-project-23-watch/assets/logo-1eccccbd.svg " class="menu-logo-icon" src="./images/computer.jpg" alt="logo" width="14"
@@ -570,7 +642,7 @@
         <p class="mob-menu-text-logo">thewatchspot</p>
         <button type="button" class="mob-menu-close-btn" data-menu-close>
             <svg class="mob-menu-btn-icon" width="24" height="24">
-            <use href="/irabasara-group-project-23-watch/assets/sprite-32a1d8b7.svg#clouse"></use></svg>
+            <use href="/irabasara-group-project-23-watch/assets/sprite-01b1863e.svg#clouse"></use></svg>
         </button>
     </div>
     <div class="mob-menu-wrap">
@@ -583,7 +655,7 @@
 
 </div>
 <script src="/src/js/menu.js"></script>
-    <script src="/src/js/menu.js"></script>
     
+
   </body>
 </html>

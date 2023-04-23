@@ -1,0 +1,1 @@
+(()=>{const e={openMenuBtn:document.querySelectorAll("[data-menu-open]"),closeMenuBtn:document.querySelector("[data-menu-close]"),menu:document.querySelector("[data-menu]")};e.openMenuBtn.forEach(t=>{t.addEventListener("click",n)}),e.closeMenuBtn.addEventListener("click",n);function n(){e.menu.classList.toggle("is-hidden"),document.body.classList.toggle("no-scroll")}})();
