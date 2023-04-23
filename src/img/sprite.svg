@@ -45,6 +45,11 @@ fill="white" />
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7619" d="M6.857 0.381h18.286c3.577 0 6.476 2.9 6.476 6.476v18.286c0 3.577-2.899 6.476-6.476 6.476h-18.286c-3.577 0-6.476-2.899-6.476-6.476v-18.286c0-3.577 2.9-6.476 6.476-6.476z"></path>
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.7619" d="M18.286 20.571l-4.571-4.571 4.571-4.571"></path>
 </symbol>
+<symbol id="icon-logo-2" viewBox="0 0 31 32">
+<path fill="#000" style="fill: var(--color1, #000)" d="M27.681 18.564l-6.748-15.457-1.472-1.020-1.725-0.549-2.333-0.628-2.74 1.177-1.827 1.020 6.9 15.457h9.944z"></path>
+<path fill="#000" style="fill: var(--color1, #000)" d="M3.464 13.395l6.748 15.493 1.471 1.022 1.725 0.55 2.334 0.629 2.739-1.18 1.827-1.022-6.9-15.493h-9.944z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M10.476 3.309l-10.476 15.142 10.476 0.112 7.572-15.254c0.532-1.56 2.195-0.65 2.961 0-3.27-5.992-8.385-2.497-10.533 0zM20.628 28.691l10.476-15.142-10.476-0.112-7.573 15.254c-0.531 1.56-2.195 0.65-2.96 0 3.27 5.992 8.385 2.497 10.533 0z"></path>
+</symbol>
 </defs>
 </svg>
 
