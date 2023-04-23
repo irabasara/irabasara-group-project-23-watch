@@ -8,7 +8,7 @@
 @import url('./reset.css');
 @import url('../font/font.css');
 /* header */
-/* hero */
+@import url('./hero.css');
 /* about us */
 @import url('./about.css');
 /* catalog */
