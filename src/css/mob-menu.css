@@ -2,6 +2,10 @@
     transform: translateX(100%);
 }
 
+.mob-logo {
+    display: flex;
+}
+
 .mob-menu {
     position: fixed;
     display: flex;
