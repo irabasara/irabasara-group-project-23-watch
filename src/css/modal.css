@@ -47,7 +47,11 @@
 }
 
 .modal-close-btn:hover, .modal-close-btn:focus {
-    transform: scale(0.7);
+    transform: scale(0.8);
+}
+
+.no-scroll {
+    overflow: hidden;
 }
 
 .modal-watch-photo {
