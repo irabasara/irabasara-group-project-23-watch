@@ -28,7 +28,7 @@
 
 	color: var(--white-color);
 
-	font-weight: 600;
+	font-family: var(--Epilogue-SemiBold);
 	font-size: 38px;
 	line-height: 1.05;
 	letter-spacing: -0.04em;
@@ -95,7 +95,6 @@
 .slider-number-item {
 	position: relative;
 
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.29;
 	letter-spacing: -0.02em;
@@ -117,14 +116,12 @@
 	transform: translateY(-50%);
 
 	width: 32px;
-	height: 1px;
-
-	background-color: var(--white-color);
+	height: 0;
+	border: 1px solid var(--white-color);
 }
 
 .hero-text {
-	font-style: normal;
-	font-weight: 300;
+	font-family: var(--Epilogue-Light);
 	font-size: 14px;
 	line-height: 1.29;
 	letter-spacing: -0.02em;
@@ -190,6 +187,14 @@
 	.slider-icon {
 		width: 40px;
 		height: 40px;
+	}
+
+	.slider-number-item:not(:last-child) {
+		margin-right: 52px;
+	}
+
+	.after.slider-number-item::after {
+		width: 40px;
 	}
 
 	.hero-text {
