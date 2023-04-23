@@ -1,29 +1,52 @@
 
 /* ==================================SALE==================================*/
 
+.sale-section {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+
 .sale-container {
-    max-width: 375px;
+		width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
 
+@media screen and (min-width: 375px) {
+
+	.sale-container {
+		width: 375px;
+	}
 }
 
 @media screen and (min-width: 768px) {
+	.sale-section {
+		padding-top: 64px;
+		padding-bottom: 128px;
+	}
 
     .sale-container {
-        max-width: 768px;
+        width: 768px;
         padding-left: 32px;
         padding-right: 32px;
     }
 }
 
 @media screen and (min-width: 1280px) {
+	.sale-section {
+		padding-top: 80px;
+		padding-bottom: 160px;
+	}
+
     .sale-container {
-        max-width: 1440px;
-        padding-left: 132px;
-        padding-right: 132px;
+        width: 1280px;
+        padding-left: 52px;
+        padding-right: 52px;
     }
 }
 
