@@ -97,7 +97,7 @@ color: var(--white-color);
 
 @media screen and (min-width: 768px) {
     .header-container {
-        max-width: 728px;
+        max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
         padding-top: 20px;
