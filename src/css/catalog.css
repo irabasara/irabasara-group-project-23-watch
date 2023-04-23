@@ -1,4 +1,12 @@
 /* ------------------MOBILE------------------------- */
+.section-catalog {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+
 .container-catalog {
   padding-left: 20px;
   padding-right: 20px;
@@ -142,6 +150,12 @@
 /* ################################################## */
 /* --------------------TABLE-------------------------- */
 @media screen and (min-width: 768px) {
+
+	.section-catalog {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
   .container-catalog {
     padding-left: 32px;
     padding-right: 32px;
@@ -167,6 +181,12 @@
 /* ##################################################### */
 /* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
+
+	.section-catalog {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
   .container-catalog {
 		width: 1280px;
 		padding-left: 52px;

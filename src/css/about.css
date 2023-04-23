@@ -1,5 +1,11 @@
+.about-section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 .about-container {
-  padding: 40px 20px 80px;
+  padding-left: 20px;
+	padding-right: 20px;
   margin: 0 auto;
 }
 .about-title {
@@ -38,9 +44,17 @@
   }
 }
 @media screen and (min-width: 768px) {
+
+	.about-section {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+
+
   .about-container {
     width: 768px;
-    padding: 64px 32px 128px;
+    padding-left: 32px;
+		padding-right: 32px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -75,10 +89,15 @@
   }
 }
 @media screen and (min-width: 1280px) {
+	.about-section {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
   .about-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 80px 132px;
+    width: 1280px;
+    padding-left: 52px;
+		padding-right: 52px;
     position: static;
     flex-wrap: nowrap;
   }

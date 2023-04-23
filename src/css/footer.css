@@ -1,23 +1,28 @@
+/* ------------------MOBILE------------------------- */
+.footer {
+	width: 100%;
+	background-color: var(--dark-green-color);
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+.footer-container {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 @media screen and (max-width: 767px) {
-    .footer {
-        max-width: 375px;
-        background-color: var(--dark-green-color);
-        margin: 0 auto;
-        padding-bottom: 6px;
-    }
 
     .footer-container {
-        max-width: 375px;
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 375px;
     }
 
     .footer-inner {
-        padding-top: 40px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -81,17 +86,16 @@
         margin-left: 14px;
     }
 }
-
+/* ################################################## */
+/* --------------------TABLET-------------------------- */
 @media (min-width: 768px ) and (max-width: 1279px) {
     .footer {
-        max-width: 768px;
-        background-color: var(--dark-green-color);
-        margin: 0 auto;
-        padding-bottom: 20px;
+			padding-top: 80px;
+			padding-bottom: 20px;
     }
 
     .footer-container {
-        max-width: 768px;
+        width: 768px;
         margin-right: auto;
         margin-left: auto;
         padding-left: 32px;
@@ -105,7 +109,6 @@
 	}
 
     .footer-inner {
-        padding-top: 80px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 152px;
@@ -166,23 +169,21 @@
     }
 }
 
+/* ##################################################### */
+/* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
     .footer {
-        max-width: 1440px;
-        background-color: var(--dark-green-color);
-        margin: 0 auto;
-        padding-bottom: 32px;
+				padding-top: 104px;
+				padding-bottom: 32px;
     }
     
     .footer-container {
-       max-width: 1280px;
-        margin: 0 auto;
+				width: 1280px;
         padding-left: 52px;
         padding-right: 52px;
     }
 
     .footer-inner {
-        padding-top: 104px;
         margin-bottom: 174px;
         display: flex;
         justify-content: space-between;
