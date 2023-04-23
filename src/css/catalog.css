@@ -1,0 +1,91 @@
+/* ------------------MOBILE------------------------- */
+.container-catalog{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .title_catalog{
+    font-family: var(--Epilogue-SemiBold);
+    font-size: 32px;
+    line-height: 1.25;
+    color: var(--dark-green-color);
+ }
+.watches_catalog_ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+}
+.specially_catalog{
+    display: none;
+} 
+.watch_catalog_li{
+    padding: 30px 43px;
+    width: 100%;
+}
+.watch_brand{
+font-size: 14px;
+line-height: 1.29;
+margin-top: 14px;
+color: var(--black-color);
+}
+.price_catalog{
+font-size: 12px;
+line-height: 1.17;
+margin-bottom: 4px;
+color: rgba(20, 20, 20, 0.5)
+;
+}
+.watch_btn_catalog{
+   margin-top: 40px; 
+}
+@media screen and (min-width: 375px) {
+    .container-catalog{
+        width: 375px;
+    }
+}
+/* ################################################## */
+/* --------------------TABLE-------------------------- */
+@media screen and (min-width: 768px) {
+   .container-catalog{
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 768px; 
+}
+.title_catalog{
+    font-size: 40px;
+    line-height: 1.1;
+}
+.watches_catalog_ul{
+    gap: 40px 32px;
+}
+.wrist_watch{
+    width: calc((100% - 32px) / 2);
+}
+}
+/* ##################################################### */
+/* -------------------DESKTOP------------------------- */
+@media screen and (min-width: 1280px) {
+    .container-catalog{
+        width: 1440px;
+        padding: 80px 132px;
+    }
+    .specially_catalog{
+        display: block;
+    }
+.watches_catalog_ul{
+    margin-top: 64px;
+    gap: 64px 24px;
+}
+.wrist_watch{
+    width: calc((100% - 72px) / 4);
+}
+.watch_catalog_li{
+    padding: 26px 0 25px 0;
+    width: auto;
+}
+.watch_btn_catalog{
+    margin-top: 80px;
+}
+}

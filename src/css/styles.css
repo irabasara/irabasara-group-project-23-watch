@@ -8,9 +8,11 @@
 @import url('./reset.css');
 @import url('../font/font.css');
 /* header */
-/* hero */
+@import url('./hero.css');
 /* about us */
+@import url('./about.css');
 /* catalog */
+@import url('./catalog.css');
 /* new watch */
 /* sale */
 /* footer */
@@ -18,4 +20,11 @@
 
 
 
+
 @import url('./modal.css');
+
+/* mobile menu */
+@import url('./mob-menu.css');
+/* modal window */
+/* swiper */
+
