@@ -1,135 +1,134 @@
-
 @media screen and (min-width: 375px) {
-    .new-watches-wrap {
-        max-width: 375px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .new-watches-wrap {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .new-watches-wrap {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .new-watches-wrap {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 128px;
+    padding-top: 128px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .new-watches-wrap {
-        max-width: 1440px;
-        padding-bottom: 80px;
-        padding-top: 80px;
-        padding-left: 132px;
-        padding-right: 132px;
-    }
+  .new-watches-wrap {
+    max-width: 1440px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 132px;
+    padding-right: 132px;
+  }
 }
 
 .new-watches_title {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 
-    font-family: 'Epilogue-Light',sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1.1666;
-    letter-spacing: 0.06em;
+  font-family: 'Epilogue-Light', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.1666;
+  letter-spacing: 0.06em;
 
-    text-align: start;
-    color: rgba(20, 20, 20, 0.4);
+  text-align: start;
+  color: rgba(20, 20, 20, 0.4);
 }
 
-
 .new-watches_text {
-    margin-bottom: 40px;
-    width: 335px;
+  margin-bottom: 40px;
+  width: 335px;
 
-    font-family: var(--Epilogue-SemiBold);
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.1111;
-    letter-spacing: -0.02em;
+  font-family: var(--Epilogue-SemiBold);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1111;
+  letter-spacing: -0.02em;
 
-    text-align: start;
-    color: var(--black-color);
+  text-align: start;
+  color: var(--black-color);
 }
 
 @media screen and (min-width: 768px) {
-    .new-watches_text {
-        width: 448px;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
-        color: var(--dark-green-color);
-    }
+  .new-watches_text {
+    width: 448px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: var(--dark-green-color);
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .new-watches_text {
-        margin-bottom: 80px;
-    }
+  .new-watches_text {
+    margin-bottom: 80px;
+  }
 }
 
 .new-watches_list {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
-    .new-watches_list {
-        flex-wrap: nowrap;
-        gap: 20px;
-        justify-content: center;
-        
-    }
+  .new-watches_list {
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .new-watches_list {
-        flex-wrap: nowrap;
-        gap: 24px;
-        justify-content: center;
-       
-    }
+  .new-watches_list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    justify-content: center;
+  }
 }
 
 .new-watches_list .new-watches_item img {
-   width: 335px; 
-   height: 260px;
+  width: 335px;
+  height: 260px;
 }
 @media screen and (min-width: 768px) {
-    .new-watches_list .new-watches_item img {
-            width: 342px;
-        }
+  .new-watches_list .new-watches_item img {
+    width: 342px;
+  }
 }
 @media screen and (min-width: 1280px) {
-    .new-watches_list .new-watches_item img {
-        width: 576px;
-        height: 422px;
-    }
+  .new-watches_list .new-watches_item img {
+    width: 576px;
+    height: 422px;
+  }
 }
 
 .new-watches_item {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .new-watches_item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .new-watches_item {
-        flex-basis: calc((100% - 20px) / 2);
-        margin: 0 auto 0 auto;
-    }
-    
+  .new-watches_item {
+    flex-basis: calc((100% - 20px) / 2);
+    margin: 0 auto 0 auto;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .new-watches_item {
-        flex-basis: calc((100% - 24px) / 2);
-        margin: 0 auto 0 auto;
-    }
+  .new-watches_item {
+    flex-basis: calc((100% - 24px) / 2);
+    margin: 0 auto 0 auto;
+  }
 }
