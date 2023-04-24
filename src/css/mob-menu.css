@@ -5,6 +5,10 @@
     pointer-events: none;
 }
 
+.mob-logo {
+    display: flex;
+}
+
 .mob-menu {
     position: fixed;
     display: flex;
@@ -44,9 +48,6 @@
 
 }
 .mob-menu-text-logo {
-    font-family: var(--Epilogue-Thin);
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1;
     letter-spacing: -0.03em;
