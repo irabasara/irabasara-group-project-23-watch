@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 767px) {
   .footer-container {
-    width: 100%;
+    width: 375px;
   }
 
   .footer-inner {
