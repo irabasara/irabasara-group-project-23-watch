@@ -62,6 +62,9 @@
   margin-top: 40px;
 }
 
+
+
+
 /*----------------- ANIMATION --------------------*/
 
 .card-container {
@@ -159,7 +162,7 @@
   .container-catalog {
     padding-left: 32px;
     padding-right: 32px;
-    width: 768px;
+    min-width: 768px;
   }
   .title_catalog {
     font-size: 40px;
@@ -178,6 +181,20 @@
   }
 }
 
+.heart-icon {
+  stroke: rgba(20, 20, 20, 0.1);
+  position: absolute;
+  right: 43px;
+  top: 30px;
+  display: block;
+}
+@media screen and (max-width: 767px) {
+
+  .heart-icon {
+    display: none;
+  }
+
+}
 /* ##################################################### */
 /* -------------------DESKTOP------------------------- */
 @media screen and (min-width: 1280px) {
@@ -188,7 +205,7 @@
 	}
 
   .container-catalog {
-		width: 1280px;
+		min-width: 1280px;
 		padding-left: 52px;
 		padding-right: 52px;
   }
@@ -210,5 +227,8 @@
   .watch_btn_catalog {
     margin-top: 80px;
   }
+    .heart-icon {
+      display: none;
+    }
 
 }
