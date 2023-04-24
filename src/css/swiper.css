@@ -39,6 +39,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: var(--white-color);
+    z-index: 1;
 }
 
 .pagination-line {
