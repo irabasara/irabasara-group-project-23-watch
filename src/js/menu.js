@@ -1,4 +1,5 @@
-(() => {
+
+  (() => {
     const refs = {
       openMenuBtn: document.querySelectorAll('[data-menu-open]'),
       closeMenuBtn: document.querySelector('[data-menu-close]'),
@@ -15,4 +16,5 @@
       refs.menu.classList.toggle('is-hidden');
       document.body.classList.toggle('no-scroll');
     }
-  })();
+})();
+  
