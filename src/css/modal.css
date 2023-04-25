@@ -23,7 +23,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    background: #FFFFFF;
+    background: var(--white-color);
     box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
     width: 335px;
     padding: 40px 20px;
@@ -60,8 +60,6 @@
 
 .modal-watch-name, .modal-watch-price, .modal-form-name, .modal-confirm-policy, .modal-input::placeholder,
 .modal-form-message::placeholder{
-    font-style: normal;
-    font-weight: 400;
     letter-spacing: -0.02em;
 }
 
@@ -146,7 +144,7 @@
     line-height: 1.17;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 
     background-color: var(--dark-green-color);
     border-radius: 8px;
@@ -155,7 +153,7 @@
 
 .modal-btn-buy:hover, .modal-btn-buy:focus {
     color: var(--dark-green-color);
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
 }
 
 .modal-confirm-policy {
