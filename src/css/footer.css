@@ -76,12 +76,18 @@
     color: #c6cdd1;
   }
 
+  .footer-copy {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+  }
+
   .footer-icons-copy {
     fill: var(--white-color);
     width: 10px;
     height: 10px;
   }
-  
+
   .footer-copy-text span {
     margin-left: 14px;
   }
