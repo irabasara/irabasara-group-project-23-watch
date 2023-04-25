@@ -138,10 +138,8 @@ color: var(--white-color);
 
 
 .nav-link {
-    font-family: var(--Epilogue-Thin);
     font-size: 9px;
     line-height: 1.33;
-    font-weight: 600;
     
     text-transform: uppercase;
     
