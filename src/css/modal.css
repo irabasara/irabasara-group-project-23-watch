@@ -26,7 +26,6 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 223px rgba(0, 0, 0, 0.05), 0px 0px 130.6px rgba(0, 0, 0, 0.037963), 0px 0px 71.0296px rgba(0, 0, 0, 0.0303704), 0px 0px 36.2375px rgba(0, 0, 0, 0.025), 0px 0px 18.1704px rgba(0, 0, 0, 0.0196296), 0px 0px 8.77546px rgba(0, 0, 0, 0.012037);
     width: 335px;
-    min-height: 1073px;
     padding: 40px 20px;
     transform: translateX(-50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -85,6 +84,12 @@
     margin-bottom: 40px;
 }
 
+.modal-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
 .modal-form-field {
     display: flex;
     flex-direction: column;
@@ -105,13 +110,11 @@
 
 .modal-input {
     height: 42px;
-    margin-bottom: 18px;
 }
 
 .modal-form-message {
     resize: none;
     height: 170px;
-    margin-bottom: 20px;
 }
 
 .modal-input::placeholder, .modal-form-message::placeholder {
@@ -132,9 +135,7 @@
     display: block;
     width: 295px;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 12px;
+    margin: 20px auto 12px;
     padding-top: 18px;
     padding-bottom: 18px;
 
@@ -212,12 +213,17 @@
         margin-left: 40px;
     }
 
-    .modal-form-field {
-        margin-bottom: 24px;
-    }
+    .modal-form-wrapper {
+        gap: 24px;
+}
 
     .modal-btn-buy {
         width: 508px;
+        margin-top: 40px;
+    }
+
+    .modal-input {
+        outline: none;
     }
 
 }
