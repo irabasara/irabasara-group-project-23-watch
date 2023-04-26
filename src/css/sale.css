@@ -10,7 +10,7 @@
 }
 
 .sale-container {
-		width: 100%;
+	width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
@@ -52,7 +52,7 @@
 
 
 .sale-title {
-    font-weight: 600;
+    font-family: var(--Epilogue-SemiBold);
     font-size: 32px;
     line-height: 1.25;
     letter-spacing: -0.02em;
@@ -79,7 +79,6 @@
 }
 
 .sale-subtitle {
-    font-weight: 400;
     font-size: 24px;
     line-height: 1.0;
     letter-spacing: -0.02em;
@@ -89,7 +88,6 @@
 }
 
 .sale-subtitle-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
@@ -98,21 +96,22 @@
     margin-bottom: 16px;
 }
 
+.sale-price {
+    display: flex;
+    align-items: baseline;
+
+    margin-bottom: 40px;
+}
+
 .sale-price-sale {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
     color: var(--black-color);
 
-    display: flex;
-    align-items: center;
-
-    margin-bottom: 40px;
 }
 
 .sale-regular-price {
-    font-weight:400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -122,6 +121,9 @@
     margin-left: 8px;
 }
 
+.sale-description-div {
+    margin-bottom: 40px;
+}
 
 .sale-description-sub::before {
     content: '';
@@ -136,7 +138,6 @@
 }
 
 .sale-description-sub {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
@@ -162,13 +163,11 @@
 }
 
 .sale-description-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.01em;
     color: rgba(20, 20, 20, 0.5);
 
-    margin-bottom: 40px;
 }
 
 .sale-details-div::before {
@@ -183,7 +182,6 @@
 }
 
 .sale-details-sub {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: -0.02em;
@@ -208,7 +206,6 @@
 }
 
 .sale-details-item {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.01em;
