@@ -109,8 +109,6 @@
     letter-spacing: -0.02em;
     color: var(--black-color);
 
-    display: flex;
-    align-items: center;
 }
 
 .sale-regular-price {
