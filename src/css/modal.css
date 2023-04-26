@@ -189,7 +189,8 @@
     top: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 744px;
-    min-height: 670px;
+    max-height: 670px;
+    height: 100%;
     padding: 40px;
   }
 
@@ -223,7 +224,7 @@
 @media screen and (min-width: 1280px) {
   .modal {
     width: 904px;
-    min-height: 694px;
+    max-height: 694px;
   }
 
   .modal-form {
