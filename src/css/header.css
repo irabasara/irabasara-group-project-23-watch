@@ -135,9 +135,7 @@ header {
 .nav-link {
   font-size: 9px;
   line-height: 1.33;
-
   text-transform: uppercase;
-
   color: var(--white-color);
   padding: 12px 0;
 }
