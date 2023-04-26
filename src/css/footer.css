@@ -275,21 +275,18 @@
 
   .footer-category-item {
     opacity: 1;
-    transform: scale(1);
-    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1),
-      transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  .footer-category-item:hover,
   .footer-social-link svg:hover,
-  .footer-social-link svg:focus,
-  .footer-category-item:focus {
+  .footer-social-link svg:focus {
     opacity: 0.5;
     transform: scale(1.2);
   }
-
+  .footer-category-item:hover,
   .footer-tel:hover,
   .footer-address-link:hover,
+  .footer-category-item:focus,
   .footer-tel:focus,
   .footer-address-link:focus {
     opacity: 0.5;
