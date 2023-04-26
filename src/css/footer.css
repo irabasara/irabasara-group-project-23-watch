@@ -44,6 +44,7 @@
   }
 
   .footer-address-link {
+    font-style: normal;
     display: block;
     width: 141px;
     font-size: 14px;
@@ -130,6 +131,7 @@
   }
 
   .footer-address-link {
+    font-style: normal;
     display: block;
     width: 181px;
     font-size: 18px;
@@ -215,6 +217,7 @@
   }
 
   .footer-address-link {
+    font-style: normal;
     display: block;
     width: 181px;
     font-size: 18px;
@@ -236,7 +239,9 @@
     text-transform: uppercase;
     color: var(--white-color);
     opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(1);
+    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1),
+      transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
   .footer-social-list {
@@ -267,7 +272,9 @@
 
   .footer-social-link {
     opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(1);
+    transition: opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1),
+      transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
   .footer-category-link:hover,
@@ -279,5 +286,6 @@
   .footer-social-link:focus,
   .footer-category-link:focus {
     opacity: 0.5;
+    transform: scale(1.2);
   }
 }
