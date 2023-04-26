@@ -33,10 +33,8 @@ body {
   font-family: 'Epilogue-Regular', sans-serif;
 }
 :root {
-  --Epilogue-Thin: 'Epilogue-Thin', sans-serif;
   --Epilogue-Light: 'Epilogue-Light', sans-serif;
   --Epilogue-SemiBold: 'Epilogue-SemiBold', sans-serif;
-  --Neue-Montreal: 'Neue Montreal', sans-serif;
   --white-color: #ffffff;
   --black-color: #141414;
   --dark-green-color: #1e2827;

@@ -13,16 +13,6 @@
  * */
 
 @font-face {
-  font-family: 'Epilogue-Thin';
-  src: url('../font/Epilogue-Thin.woff2') format('woff2'),
-    url('../font/Epilogue-Thin.woff') format('woff'),
-    url('../font/Epilogue-Thin.ttf') format('truetype');
-  font-weight: 100;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Epilogue-Regular';
   src: url('../font/Epilogue-Regular.woff2') format('woff2'),
     url('../font/Epilogue-Regular.woff') format('woff'),
